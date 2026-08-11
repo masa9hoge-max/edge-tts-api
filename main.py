@@ -32,9 +32,9 @@ async def tts(
 
     try:
         communicate = edge_tts.Communicate(
-    　　　　　text=request.text,
-    　　　　　voice=request.voice,
-    　　　　　rate="+50%"
+            text=request.text,
+            voice=request.voice,
+            rate="+50%"
         )
 
         audio_data = bytearray()
